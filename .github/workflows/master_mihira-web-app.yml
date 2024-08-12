@@ -32,7 +32,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: .net-app
-          path: "C:\Program Files\dotnet/myapp"
+          path: "C:\Program Files/dotnet/myapp"
 
   deploy:
     runs-on: windows-latest
